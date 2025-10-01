@@ -37,7 +37,7 @@ jobs:
 
         # see all the options at https://github.com/crowdin/github-action
       - name: Crowdin PR
-        uses: crowdin/github-action@9fd07c1c5b36b15f082d1d860dc399f16f849bd7 # v2.9.0
+        uses: crowdin/github-action@0749939f635900a2521aa6aac7a3766642b2dc71 # v2.11.0
         with:
           # do not upload anything - this is a one-way operation download
           upload_sources: false
